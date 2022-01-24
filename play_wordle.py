@@ -301,9 +301,9 @@ def load_second_guesses():
 
 
 def main():
-    # solve(Word(sys.argv[1]))
+    solve(Word(sys.argv[1]))
     # generate_second_guess("raise")
-    solve_all()
+    # solve_all()
 
 
 if __name__ == "__main__":
